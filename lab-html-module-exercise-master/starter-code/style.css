@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Source Sans Pro;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+h1{
+  font-size: 2.5em;
+  color: rgba(255,255,255);
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  height: 100%;
+  padding: 5px 0;
+  font-size: 0.7em;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  float: right;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-left {
+  margin: 0 0 0 20px;
+  display: inline-block 
+}
+.heart, .acronym{
+  margin: 0 10px;
+}
+.header{
+  background-image: url("images/city-scape.svg");
+  height: 350px;
+}
+.header .container{
+  width: 500px auto;
+  position: relative;
+  padding: 30px 0 0 340px;
+  color: rgba(255,255,255,0.8);
+}
+.container p{
+  font-size: 1em;
+  width: 430px;
+}
+.register {
+  display: block;
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  color: rgba(255,255,255);
+  padding: 5px 20px;
+  border-radius: 25px;
+  margin-top: 30px;
+  position: relative;
+  float: left;
+  width: 80px auto;
+  font-size: 1em;
+}
+.col {
+  float:left;
+}
+.search {
+  padding-top: 20px;
+}
+.search .placeholder {
+  position: relative;
+  margin: 0 0 0 5px;
+  width: 75%;
+  height: 35px;
+  font-size: 1em;
+  padding-left: 10px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid grey;
+  color: white;
+}
+.search .logo {
+  width: 100px;
+  position: relative;
+  margin: 0 10px;
+}
+.fa-search {
+  position: relative;
+  height: 15px;
+  font-size: 1em;
+  padding: 10px 10px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid grey;
+  border-left: 0px;
+}
+.signup{
+  padding: 6px 0px 0px 15px; 
+  font-size: 0.8em;
+}
+.signup a, .signup {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-family: Source Sans Pro;
+  font-weight: 200;
+}
+.clearfix {
+  clear: both;
+}
+.logobear {
+  width: 35px;
+  padding: 0 5px;
+}
+.no-decoration {
+  text-decoration: none;
+  color: white;
+}
+.general-information {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  height: 420px;
+}
+.general-information img{
+  margin: 100px 0 0 350px;
+}
+.general-information .container {
+  margin: 120px 10px 0 50px;
+}
+.general-information .title {
+  font-size: 2em;
+}
+.general-information ul {
+  font-size: 0.9em;
+  line-height: 2.5em;
+  margin-left: 15px;
+}
+.register2 {
+  display: block;
+  background-color: rgb(203, 56, 55);
+  color: rgba(255,255,255);
+  padding: 5px 20px;
+  border-radius: 25px;
+  margin-top: 20px;
+  position: absolute;
+  width: 80px auto;
+  float: left;
+  font-size: 1em;
+}
+.general-information .down {
+  margin-top: 50px;
+  font-size: 0.9em;
+}
+.install {
+  background-image: url('images/forklift.svg');
+  height: 380px;
+  color: white;
+
+}
+.install .title {
+  font-size: 2em;
+}
+.install .container {
+  padding: 100px 10px 0 340px;
+}
+.install .text{
+  margin-top: 10px;
+  width: 280px;
+  font-size: 0.9em;
+}
+.install-button {
+  display: block;
+  background-color: rgb(49, 68, 88);
+  color: rgba(255,255,255);
+  padding: 5px 20px;
+  border-radius: 25px;
+  margin-top: 15px;
+  position: absolute;
+  width: 80px auto;
+  float: left;
+  font-size: 0.9em;
+}
+.structure {
+  height: 380px;
+}
+.structure-article {
+  display: block;
+  text-align: center;
+  width: 20%;
+  position: relative;
+  padding-top: 150px;
+}
+.col-left {
+  margin-left: 19%;
+}
+.col-middle {
+  margin: 0;
+}
+.col-right {
+  margin-right: 19%;
+}
+.structure-article .structure-p{
+  position: relative;
+  font-size: 0.9em;
+  display: block;
+  width: 190px;
+  padding: 10px 60px;
+  color:rgb(135, 145, 156);
+}
+.structure .title {
+  position: absolute;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  color: rgb(83, 88, 98);
+}
+.structure .text {
+  position: absolute;
+  font-size: 0.9em;
+  width: 100%;
+  text-align: center;
+  padding-top: 110px;
+}
+.structure-article .structure-img {
+  width: 100px;
+  text-align: center;
+  padding: 0 0 0 25px;
+}
+.structure-article .structure-h {
+  text-align: center;
+  position: relative;
+  display: block;
+  font-size: 1em;
+  color: black;
+  font-weight: 400;
+  width: 60px;
+  padding-left: 125px;
+}
+.structure-article a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
